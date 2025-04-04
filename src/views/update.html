@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atualizar Registro - EspoCRM</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h2>Atualizar Registro</h2>
+
+            <!-- Formulário para alterar registro -->
+            <form id="updateForm">
+                <div class="form-group">
+                    <label for="updateId">ID do Registro</label>
+                    <input type="text" id="updateId" class="form-control" placeholder="Digite o ID do registro"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="updateName">Novo Nome</label>
+                    <input type="text" id="updateName" class="form-control" placeholder="Digite o novo nome" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Alterar Registro</button>
+            </form>
+        </div>
+        <br>
+        <!-- Tabela para exibir registros -->
+        <h4>Registros Disponíveis</h4>
+        <table class="table table-bordered" id="tabela-registros">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Data de Criação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Os registros serão preenchidos dinamicamente -->
+            </tbody>
+        </table>
+        <script src="../js/scripts.js"></script>
+    </body>
+</html>
