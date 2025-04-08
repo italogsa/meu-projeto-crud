@@ -1,6 +1,6 @@
 # Bootstrap CRUD Site
 
-Este projeto é um site básico que utiliza Bootstrap para realizar operações de CRUD (Criar, Ler, Atualizar e Deletar) nos arquivos do EspoCRM.
+Este projeto é um site básico que utiliza API para realizar operações de CRUD (Criar, Ler, Atualizar e Deletar) nos arquivos do EspoCRM.
 
 ## Estrutura do Projeto
 
